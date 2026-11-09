@@ -65,6 +65,29 @@ This property is specified as one of the following keyword values:
 - `inter-character`
   - : Is a keyword indicating that the ruby annotation is placed to the right of the base text characters. This value is intended for bopomofo (zhuyin fuhao) ruby.
 
+{{EmbedLiveSample("inter-character-bopomofo", "100%", 120)}}
+
+```html
+<ruby>
+  汉<rt>&#x310F;&#x3122;&#x02CB;</rt>
+</ruby>
+<ruby>
+  字<rt>&#x3117;&#x02CB;</rt>
+</ruby>
+```css
+ruby {
+  ruby-position: inter-character;
+}
+body {
+  writing-mode: vertical-rl;
+  font-size: 2rem;
+}
+
+```
+```
+
+
+
 ## Formal definition
 
 {{cssinfo}}
