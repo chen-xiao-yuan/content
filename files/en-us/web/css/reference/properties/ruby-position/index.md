@@ -69,24 +69,23 @@ This property is specified as one of the following keyword values:
 
 ```html
 <ruby>
-  <rb>美</rb>
-  <rtc>
-    <rt>&#31207;&#23585;&#712;</rt>
-  </rtc>
+  汉<rt>&#x310F;&#x3122;&#x02CB;</rt>
 </ruby>
 <ruby>
-  <rb>好</rb>
-  <rtc>
-    <rt>&#31201;&#27784;&#712;</rt>
-  </rtc>
+  字<rt>&#x3117;&#x02CB;</rt>
 </ruby>
 ```css
 ruby {
   ruby-position: inter-character;
+}
+body {
+  writing-mode: vertical-rl;
   font-size: 2rem;
 }
+
 ```
 ```
+
 
 
 ## Formal definition
